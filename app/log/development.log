@@ -1,0 +1,726 @@
+
+
+Started GET "/" for ::1 at 2016-02-29 18:05:59 +0500
+Processing by Rails::WelcomeController#index as HTML
+  Rendered C:/Ruby20/lib/ruby/gems/2.0.0/gems/railties-4.2.5/lib/rails/templates/rails/welcome/index.html.erb (4.1ms)
+Completed 200 OK in 117ms (Views: 98.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-02-29 18:07:01 +0500
+Processing by PostsController#index as HTML
+  Rendered posts/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 4717ms (Views: 4716.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.self-c64a74367bda6ef8b860f19e74df08927ca99d2be2ac934e9e92d5fd361e0da4.js?body=1" for ::1 at 2016-02-29 18:07:06 +0500
+
+
+Started GET "/assets/posts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-02-29 18:07:06 +0500
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-02-29 18:07:07 +0500
+
+
+Started GET "/assets/jquery_ujs.self-d602bdfe68ffc63b9f9cc512872aa3cfff046228a0a36e90dd476e8ef54c1b09.js?body=1" for ::1 at 2016-02-29 18:07:07 +0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-02-29 18:07:07 +0500
+
+
+Started GET "/assets/posts.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-02-29 18:07:07 +0500
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-02-29 18:07:07 +0500
+
+
+Started GET "/" for ::1 at 2016-02-29 18:25:29 +0500
+Processing by PostsController#index as HTML
+  Rendered posts/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 93ms (Views: 90.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/posts" for ::1 at 2016-02-29 18:25:55 +0500
+Processing by PostsController#index as HTML
+  Rendered posts/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 48ms (Views: 46.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/products" for ::1 at 2016-02-29 18:25:55 +0500
+
+ActionController::RoutingError (No route matches [GET] "/products"):
+  actionpack (4.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  C:/Ruby20/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  C:/Ruby20/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  C:/Ruby20/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered C:/Ruby20/lib/ruby/gems/2.0.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.0ms)
+  Rendered C:/Ruby20/lib/ruby/gems/2.0.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.5ms)
+  Rendered C:/Ruby20/lib/ruby/gems/2.0.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_table.html.erb (67.6ms)
+  Rendered C:/Ruby20/lib/ruby/gems/2.0.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered C:/Ruby20/lib/ruby/gems/2.0.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (181.7ms)
+  Rendered C:/Ruby20/lib/ruby/gems/2.0.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (1.0ms)
+  Rendered C:/Ruby20/lib/ruby/gems/2.0.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered C:/Ruby20/lib/ruby/gems/2.0.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.0ms)
+  Rendered C:/Ruby20/lib/ruby/gems/2.0.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered C:/Ruby20/lib/ruby/gems/2.0.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (132.0ms)
+  Rendered C:/Ruby20/lib/ruby/gems/2.0.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered C:/Ruby20/lib/ruby/gems/2.0.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered C:/Ruby20/lib/ruby/gems/2.0.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (215.1ms)
+
+
+Started GET "/posts/new" for ::1 at 2016-02-29 18:26:13 +0500
+Processing by PostsController#new as HTML
+  Rendered posts/new.html.erb within layouts/application (8.6ms)
+Completed 500 Internal Server Error in 16ms (ActiveRecord: 0.0ms)
+
+SyntaxError (C:/diplom/app/app/views/posts/new.html.erb:2: syntax error, unexpected '=', expecting keyword_end
+'.freeze; = form_for :post, url: posts_path do |f| 
+           ^):
+  app/views/posts/new.html.erb:2: syntax error, unexpected '=', expecting keyword_end
+
+
+  Rendered C:/Ruby20/lib/ruby/gems/2.0.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.0ms)
+  Rendered C:/Ruby20/lib/ruby/gems/2.0.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (5.0ms)
+  Rendered C:/Ruby20/lib/ruby/gems/2.0.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered C:/Ruby20/lib/ruby/gems/2.0.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (61.7ms)
+  Rendered C:/Ruby20/lib/ruby/gems/2.0.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered C:/Ruby20/lib/ruby/gems/2.0.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered C:/Ruby20/lib/ruby/gems/2.0.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered C:/Ruby20/lib/ruby/gems/2.0.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered C:/Ruby20/lib/ruby/gems/2.0.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (92.6ms)
+  Rendered C:/Ruby20/lib/ruby/gems/2.0.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.0ms)
+  Rendered C:/Ruby20/lib/ruby/gems/2.0.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered C:/Ruby20/lib/ruby/gems/2.0.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (152.1ms)
+
+
+Started GET "/posts/new" for ::1 at 2016-02-29 18:27:17 +0500
+Processing by PostsController#new as HTML
+  Rendered posts/new.html.erb within layouts/application (1.5ms)
+Completed 500 Internal Server Error in 11ms (ActiveRecord: 0.0ms)
+
+SyntaxError (C:/diplom/app/app/views/posts/new.html.erb:2: syntax error, unexpected '=', expecting keyword_end
+'.freeze; = form_for :post, url: posts_path do |f| 
+           ^):
+  app/views/posts/new.html.erb:2: syntax error, unexpected '=', expecting keyword_end
+
+
+  Rendered C:/Ruby20/lib/ruby/gems/2.0.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.0ms)
+  Rendered C:/Ruby20/lib/ruby/gems/2.0.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.5ms)
+  Rendered C:/Ruby20/lib/ruby/gems/2.0.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered C:/Ruby20/lib/ruby/gems/2.0.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (50.5ms)
+  Rendered C:/Ruby20/lib/ruby/gems/2.0.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.0ms)
+  Rendered C:/Ruby20/lib/ruby/gems/2.0.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.0ms)
+  Rendered C:/Ruby20/lib/ruby/gems/2.0.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered C:/Ruby20/lib/ruby/gems/2.0.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.0ms)
+  Rendered C:/Ruby20/lib/ruby/gems/2.0.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (51.5ms)
+  Rendered C:/Ruby20/lib/ruby/gems/2.0.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered C:/Ruby20/lib/ruby/gems/2.0.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered C:/Ruby20/lib/ruby/gems/2.0.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (111.1ms)
+
+
+Started GET "/posts/new" for ::1 at 2016-02-29 18:27:26 +0500
+Processing by PostsController#new as HTML
+  Rendered posts/new.html.erb within layouts/application (46.6ms)
+Completed 200 OK in 82ms (Views: 80.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.self-c64a74367bda6ef8b860f19e74df08927ca99d2be2ac934e9e92d5fd361e0da4.js?body=1" for ::1 at 2016-02-29 18:27:26 +0500
+
+
+Started GET "/assets/jquery_ujs.self-d602bdfe68ffc63b9f9cc512872aa3cfff046228a0a36e90dd476e8ef54c1b09.js?body=1" for ::1 at 2016-02-29 18:27:26 +0500
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-02-29 18:27:26 +0500
+
+
+Started GET "/assets/posts.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-02-29 18:27:26 +0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-02-29 18:27:26 +0500
+
+
+Started GET "/assets/posts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-02-29 18:27:26 +0500
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-02-29 18:27:26 +0500
+
+
+Started POST "/posts" for ::1 at 2016-02-29 18:29:08 +0500
+
+ActiveRecord::PendingMigrationError (
+
+Migrations are pending. To resolve this issue, run:
+
+	bin/rake db:migrate RAILS_ENV=development
+
+):
+  activerecord (4.2.5) lib/active_record/migration.rb:392:in `check_pending!'
+  activerecord (4.2.5) lib/active_record/migration.rb:373:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.5) lib/active_support/callbacks.rb:88:in `__run_callbacks__'
+  activesupport (4.2.5) lib/active_support/callbacks.rb:778:in `_run_call_callbacks'
+  activesupport (4.2.5) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.5) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  C:/Ruby20/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  C:/Ruby20/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  C:/Ruby20/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered C:/Ruby20/lib/ruby/gems/2.0.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.0ms)
+  Rendered C:/Ruby20/lib/ruby/gems/2.0.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered C:/Ruby20/lib/ruby/gems/2.0.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered C:/Ruby20/lib/ruby/gems/2.0.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (65.6ms)
+  Rendered C:/Ruby20/lib/ruby/gems/2.0.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered C:/Ruby20/lib/ruby/gems/2.0.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered C:/Ruby20/lib/ruby/gems/2.0.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered C:/Ruby20/lib/ruby/gems/2.0.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered C:/Ruby20/lib/ruby/gems/2.0.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (51.8ms)
+  Rendered C:/Ruby20/lib/ruby/gems/2.0.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.0ms)
+  Rendered C:/Ruby20/lib/ruby/gems/2.0.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered C:/Ruby20/lib/ruby/gems/2.0.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (112.0ms)
+  [1m[36m (332.3ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL) [0m
+  [1m[35m (147.4ms)[0m  select sqlite_version(*)
+  [1m[36m (199.7ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.0ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+Migrating to CreatePosts (20160229132848)
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (1.7ms)[0m  CREATE TABLE "posts" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "title" varchar, "body" text, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20160229132848"]]
+  [1m[35m (176.2ms)[0m  commit transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+
+
+Started GET "/posts/new" for ::1 at 2016-02-29 18:38:38 +0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PostsController#new as HTML
+  Rendered posts/new.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 51ms (Views: 48.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.self-c64a74367bda6ef8b860f19e74df08927ca99d2be2ac934e9e92d5fd361e0da4.js?body=1" for ::1 at 2016-02-29 18:38:38 +0500
+
+
+Started GET "/assets/posts.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-02-29 18:38:38 +0500
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-02-29 18:38:38 +0500
+
+
+Started GET "/assets/jquery_ujs.self-d602bdfe68ffc63b9f9cc512872aa3cfff046228a0a36e90dd476e8ef54c1b09.js?body=1" for ::1 at 2016-02-29 18:38:38 +0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-02-29 18:38:38 +0500
+
+
+Started GET "/assets/posts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-02-29 18:38:38 +0500
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-02-29 18:38:38 +0500
+
+
+Started POST "/posts" for ::1 at 2016-02-29 18:38:50 +0500
+Processing by PostsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"xkzkPlu9jX8J5PIC2NjSWDP9zGEN2U7/1SjRBth76iyPeE7bHuUNHJRKveCNSHmFSmDgbkELQ7bXaKRJrVrQFw==", "post"=>{"title"=>"world", "body"=>"hello"}, "commit"=>"Save Post"}
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (60.1ms)[0m  [1mINSERT INTO "posts" ("title", "body", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "world"], ["body", "hello"], ["created_at", "2016-02-29 13:38:50.036034"], ["updated_at", "2016-02-29 13:38:50.036034"]]
+  [1m[35m (314.5ms)[0m  commit transaction
+Redirected to http://localhost:3000/posts/1
+Completed 302 Found in 407ms (ActiveRecord: 374.5ms)
+
+
+Started GET "/posts/1" for ::1 at 2016-02-29 18:38:50 +0500
+
+AbstractController::ActionNotFound (The action 'show' could not be found for PostsController):
+  actionpack (4.2.5) lib/abstract_controller/base.rb:132:in `process'
+  actionview (4.2.5) lib/action_view/rendering.rb:30:in `process'
+  actionpack (4.2.5) lib/action_controller/metal.rb:196:in `dispatch'
+  actionpack (4.2.5) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.2.5) lib/action_controller/metal.rb:237:in `block in action'
+  actionpack (4.2.5) lib/action_dispatch/routing/route_set.rb:76:in `call'
+  actionpack (4.2.5) lib/action_dispatch/routing/route_set.rb:76:in `dispatch'
+  actionpack (4.2.5) lib/action_dispatch/routing/route_set.rb:45:in `serve'
+  actionpack (4.2.5) lib/action_dispatch/journey/router.rb:43:in `block in serve'
+  actionpack (4.2.5) lib/action_dispatch/journey/router.rb:30:in `each'
+  actionpack (4.2.5) lib/action_dispatch/journey/router.rb:30:in `serve'
+  actionpack (4.2.5) lib/action_dispatch/routing/route_set.rb:817:in `call'
+  rack (1.6.4) lib/rack/etag.rb:24:in `call'
+  rack (1.6.4) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.6.4) lib/rack/head.rb:13:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/flash.rb:260:in `call'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.2.5) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.2.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:653:in `call'
+  activerecord (4.2.5) lib/active_record/migration.rb:377:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.5) lib/active_support/callbacks.rb:88:in `__run_callbacks__'
+  activesupport (4.2.5) lib/active_support/callbacks.rb:778:in `_run_call_callbacks'
+  activesupport (4.2.5) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.5) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  C:/Ruby20/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  C:/Ruby20/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  C:/Ruby20/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered C:/Ruby20/lib/ruby/gems/2.0.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/unknown_action.html.erb within rescues/layout (0.0ms)
+  Rendered C:/Ruby20/lib/ruby/gems/2.0.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (1.0ms)
+  Rendered C:/Ruby20/lib/ruby/gems/2.0.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.0ms)
+  Rendered C:/Ruby20/lib/ruby/gems/2.0.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.0ms)
+  Rendered C:/Ruby20/lib/ruby/gems/2.0.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.0ms)
+  Rendered C:/Ruby20/lib/ruby/gems/2.0.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (49.7ms)
+  Rendered C:/Ruby20/lib/ruby/gems/2.0.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.0ms)
+  Rendered C:/Ruby20/lib/ruby/gems/2.0.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (1.0ms)
+  Rendered C:/Ruby20/lib/ruby/gems/2.0.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (112.2ms)
+
+
+Started GET "/posts/1" for ::1 at 2016-02-29 18:42:44 +0500
+Processing by PostsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mPost Load (0.0ms)[0m  [1mSELECT  "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered posts/show.html.erb within layouts/application (32.1ms)
+Completed 500 Internal Server Error in 129ms (ActiveRecord: 0.5ms)
+
+ActionView::Template::Error (undefined method `time_ago_in_word' for #<#<Class:0x6fa9848>:0x7024020>):
+    3: </h1>
+    4: 
+    5: <p class = "date">
+    6: 	Submitted <%= time_ago_in_word(@post.created_at)%> ago
+    7: </p>
+    8: 
+    9: <p class = "body">
+  app/views/posts/show.html.erb:6:in `_app_views_posts_show_html_erb__87421912_58899324'
+
+
+  Rendered C:/Ruby20/lib/ruby/gems/2.0.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.5ms)
+  Rendered C:/Ruby20/lib/ruby/gems/2.0.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.0ms)
+  Rendered C:/Ruby20/lib/ruby/gems/2.0.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered C:/Ruby20/lib/ruby/gems/2.0.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (72.6ms)
+  Rendered C:/Ruby20/lib/ruby/gems/2.0.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered C:/Ruby20/lib/ruby/gems/2.0.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (1.0ms)
+  Rendered C:/Ruby20/lib/ruby/gems/2.0.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered C:/Ruby20/lib/ruby/gems/2.0.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.0ms)
+  Rendered C:/Ruby20/lib/ruby/gems/2.0.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (55.3ms)
+  Rendered C:/Ruby20/lib/ruby/gems/2.0.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.0ms)
+  Rendered C:/Ruby20/lib/ruby/gems/2.0.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.0ms)
+  Rendered C:/Ruby20/lib/ruby/gems/2.0.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (118.5ms)
+
+
+Started GET "/posts/1" for ::1 at 2016-02-29 18:43:03 +0500
+Processing by PostsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mPost Load (0.5ms)[0m  SELECT  "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered posts/show.html.erb within layouts/application (12.5ms)
+Completed 500 Internal Server Error in 25ms (ActiveRecord: 0.5ms)
+
+ActionView::Template::Error (undefined method `times_ago_in_word' for #<#<Class:0x6fa9848>:0x3f202f8>):
+    3: </h1>
+    4: 
+    5: <p class = "date">
+    6: 	Submitted <%= times_ago_in_word(@post.created_at)%> ago
+    7: </p>
+    8: 
+    9: <p class = "body">
+  app/views/posts/show.html.erb:6:in `_app_views_posts_show_html_erb__87421912_33510804'
+
+
+  Rendered C:/Ruby20/lib/ruby/gems/2.0.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.0ms)
+  Rendered C:/Ruby20/lib/ruby/gems/2.0.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (47.1ms)
+  Rendered C:/Ruby20/lib/ruby/gems/2.0.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered C:/Ruby20/lib/ruby/gems/2.0.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (96.1ms)
+  Rendered C:/Ruby20/lib/ruby/gems/2.0.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered C:/Ruby20/lib/ruby/gems/2.0.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered C:/Ruby20/lib/ruby/gems/2.0.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered C:/Ruby20/lib/ruby/gems/2.0.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered C:/Ruby20/lib/ruby/gems/2.0.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (51.1ms)
+  Rendered C:/Ruby20/lib/ruby/gems/2.0.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered C:/Ruby20/lib/ruby/gems/2.0.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered C:/Ruby20/lib/ruby/gems/2.0.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (111.5ms)
+
+
+Started GET "/posts/1" for ::1 at 2016-02-29 18:44:08 +0500
+Processing by PostsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mPost Load (0.0ms)[0m  [1mSELECT  "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered posts/show.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 84ms (Views: 79.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/posts.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-02-29 18:44:09 +0500
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-02-29 18:44:09 +0500
+
+
+Started GET "/assets/jquery_ujs.self-d602bdfe68ffc63b9f9cc512872aa3cfff046228a0a36e90dd476e8ef54c1b09.js?body=1" for ::1 at 2016-02-29 18:44:09 +0500
+
+
+Started GET "/assets/jquery.self-c64a74367bda6ef8b860f19e74df08927ca99d2be2ac934e9e92d5fd361e0da4.js?body=1" for ::1 at 2016-02-29 18:44:09 +0500
+
+
+Started GET "/assets/posts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-02-29 18:44:09 +0500
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-02-29 18:44:09 +0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-02-29 18:44:09 +0500
+
+
+Started GET "/" for ::1 at 2016-02-29 19:30:54 +0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PostsController#index as HTML
+  [1m[35mPost Load (0.0ms)[0m  SELECT "posts".* FROM "posts"  ORDER BY created_at DESC
+  Rendered posts/index.html.erb within layouts/application (36.2ms)
+Completed 200 OK in 871ms (Views: 854.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-02-29 19:30:56 +0500
+Processing by PostsController#index as HTML
+  [1m[36mPost Load (0.0ms)[0m  [1mSELECT "posts".* FROM "posts"  ORDER BY created_at DESC[0m
+  Rendered posts/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 34ms (Views: 34.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/posts.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-02-29 19:30:56 +0500
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-02-29 19:30:56 +0500
+
+
+Started GET "/assets/jquery.self-c64a74367bda6ef8b860f19e74df08927ca99d2be2ac934e9e92d5fd361e0da4.js?body=1" for ::1 at 2016-02-29 19:30:56 +0500
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-02-29 19:30:56 +0500
+
+
+Started GET "/assets/jquery_ujs.self-d602bdfe68ffc63b9f9cc512872aa3cfff046228a0a36e90dd476e8ef54c1b09.js?body=1" for ::1 at 2016-02-29 19:30:56 +0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-02-29 19:30:56 +0500
+
+
+Started GET "/assets/posts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-02-29 19:30:56 +0500
+
+
+Started GET "/posts/1" for ::1 at 2016-02-29 19:30:58 +0500
+Processing by PostsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mPost Load (0.0ms)[0m  SELECT  "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered posts/show.html.erb within layouts/application (46.9ms)
+Completed 200 OK in 238ms (Views: 78.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-02-29 19:31:52 +0500
+Processing by PostsController#index as HTML
+  [1m[36mPost Load (0.0ms)[0m  [1mSELECT "posts".* FROM "posts"  ORDER BY created_at DESC[0m
+  Rendered posts/index.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 41ms (Views: 40.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-02-29 19:31:53 +0500
+
+
+Started GET "/assets/jquery.self-c64a74367bda6ef8b860f19e74df08927ca99d2be2ac934e9e92d5fd361e0da4.js?body=1" for ::1 at 2016-02-29 19:31:53 +0500
+
+
+Started GET "/assets/posts.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-02-29 19:31:53 +0500
+
+
+Started GET "/assets/jquery_ujs.self-d602bdfe68ffc63b9f9cc512872aa3cfff046228a0a36e90dd476e8ef54c1b09.js?body=1" for ::1 at 2016-02-29 19:31:53 +0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-02-29 19:31:53 +0500
+
+
+Started GET "/assets/posts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-02-29 19:31:53 +0500
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-02-29 19:31:53 +0500
+
+
+Started GET "/" for ::1 at 2016-02-29 19:32:41 +0500
+Processing by PostsController#index as HTML
+  [1m[35mPost Load (1.0ms)[0m  SELECT "posts".* FROM "posts"  ORDER BY created_at DESC
+  Rendered posts/index.html.erb within layouts/application (43.2ms)
+Completed 500 Internal Server Error in 51ms (ActiveRecord: 1.0ms)
+
+ActionView::Template::Error (undefined method `strftime' for #<Post:0x5169780>):
+    2: <% @posts.each do |p| %>
+    3: <div class = "post_wrapper">
+    4:  <h2 class = "title"> <%= link_to p.title, p%></h2>
+    5:  <p class = "date"><%= p.strftime("%b, %d, %Y")%> </p>
+    6: </div>
+    7: 
+    8: <%end %>
+  app/views/posts/index.html.erb:5:in `block in _app_views_posts_index_html_erb___1010458805_41507088'
+  app/views/posts/index.html.erb:2:in `_app_views_posts_index_html_erb___1010458805_41507088'
+
+
+  Rendered C:/Ruby20/lib/ruby/gems/2.0.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.0ms)
+  Rendered C:/Ruby20/lib/ruby/gems/2.0.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.0ms)
+  Rendered C:/Ruby20/lib/ruby/gems/2.0.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered C:/Ruby20/lib/ruby/gems/2.0.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (150.4ms)
+  Rendered C:/Ruby20/lib/ruby/gems/2.0.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.0ms)
+  Rendered C:/Ruby20/lib/ruby/gems/2.0.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (1.0ms)
+  Rendered C:/Ruby20/lib/ruby/gems/2.0.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (1.0ms)
+  Rendered C:/Ruby20/lib/ruby/gems/2.0.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (1.0ms)
+  Rendered C:/Ruby20/lib/ruby/gems/2.0.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (83.1ms)
+  Rendered C:/Ruby20/lib/ruby/gems/2.0.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (1.0ms)
+  Rendered C:/Ruby20/lib/ruby/gems/2.0.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.0ms)
+  Rendered C:/Ruby20/lib/ruby/gems/2.0.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (195.7ms)
+
+
+Started GET "/" for ::1 at 2016-02-29 19:32:45 +0500
+Processing by PostsController#index as HTML
+  [1m[36mPost Load (1.0ms)[0m  [1mSELECT "posts".* FROM "posts"  ORDER BY created_at DESC[0m
+  Rendered posts/index.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 48ms (Views: 46.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-02-29 19:32:46 +0500
+
+
+Started GET "/assets/jquery_ujs.self-d602bdfe68ffc63b9f9cc512872aa3cfff046228a0a36e90dd476e8ef54c1b09.js?body=1" for ::1 at 2016-02-29 19:32:46 +0500
+
+
+Started GET "/assets/jquery.self-c64a74367bda6ef8b860f19e74df08927ca99d2be2ac934e9e92d5fd361e0da4.js?body=1" for ::1 at 2016-02-29 19:32:46 +0500
+
+
+Started GET "/assets/posts.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-02-29 19:32:46 +0500
+
+
+Started GET "/assets/posts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-02-29 19:32:46 +0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-02-29 19:32:46 +0500
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-02-29 19:32:46 +0500
+
+
+Started GET "/" for ::1 at 2016-02-29 19:38:45 +0500
+Processing by PostsController#index as HTML
+  [1m[35mPost Load (1.0ms)[0m  SELECT "posts".* FROM "posts"  ORDER BY created_at DESC
+  Rendered posts/index.html.erb within layouts/application (15.0ms)
+Completed 500 Internal Server Error in 27ms (ActiveRecord: 1.0ms)
+
+ActionView::Template::Error (undefined local variable or method `post' for #<#<Class:0x5daffb0>:0x8360148>):
+    1: <h1> HELLO EVERYONE</h1>
+    2: <% @posts.each do |p| %>
+    3: <div class = "post_wrapper">
+    4:  <h2 class = "title"> <%= link_to p.title, post%></h2>
+    5:  <p class = "date"><%= p.created_at.strftime("%b, %d, %Y")%> </p>
+    6: </div>
+    7: 
+  app/views/posts/index.html.erb:4:in `block in _app_views_posts_index_html_erb___1010458805_25029396'
+  app/views/posts/index.html.erb:2:in `_app_views_posts_index_html_erb___1010458805_25029396'
+
+
+  Rendered C:/Ruby20/lib/ruby/gems/2.0.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.0ms)
+  Rendered C:/Ruby20/lib/ruby/gems/2.0.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (58.0ms)
+  Rendered C:/Ruby20/lib/ruby/gems/2.0.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered C:/Ruby20/lib/ruby/gems/2.0.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (205.1ms)
+  Rendered C:/Ruby20/lib/ruby/gems/2.0.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (1.0ms)
+  Rendered C:/Ruby20/lib/ruby/gems/2.0.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.0ms)
+  Rendered C:/Ruby20/lib/ruby/gems/2.0.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.0ms)
+  Rendered C:/Ruby20/lib/ruby/gems/2.0.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.0ms)
+  Rendered C:/Ruby20/lib/ruby/gems/2.0.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (50.7ms)
+  Rendered C:/Ruby20/lib/ruby/gems/2.0.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (1.0ms)
+  Rendered C:/Ruby20/lib/ruby/gems/2.0.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.0ms)
+  Rendered C:/Ruby20/lib/ruby/gems/2.0.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (125.0ms)
+
+
+Started GET "/" for ::1 at 2016-02-29 19:38:52 +0500
+Processing by PostsController#index as HTML
+  [1m[36mPost Load (0.0ms)[0m  [1mSELECT "posts".* FROM "posts"  ORDER BY created_at DESC[0m
+  Rendered posts/index.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 41ms (Views: 40.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.self-c64a74367bda6ef8b860f19e74df08927ca99d2be2ac934e9e92d5fd361e0da4.js?body=1" for ::1 at 2016-02-29 19:38:52 +0500
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-02-29 19:38:52 +0500
+
+
+Started GET "/assets/posts.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-02-29 19:38:52 +0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-02-29 19:38:52 +0500
+
+
+Started GET "/assets/jquery_ujs.self-d602bdfe68ffc63b9f9cc512872aa3cfff046228a0a36e90dd476e8ef54c1b09.js?body=1" for ::1 at 2016-02-29 19:38:52 +0500
+
+
+Started GET "/assets/posts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-02-29 19:38:52 +0500
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-02-29 19:38:52 +0500
+
+
+Started GET "/posts" for ::1 at 2016-02-29 19:38:54 +0500
+Processing by PostsController#index as HTML
+  [1m[35mPost Load (1.0ms)[0m  SELECT "posts".* FROM "posts"  ORDER BY created_at DESC
+  Rendered posts/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 32ms (Views: 30.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/posts" for ::1 at 2016-02-29 19:38:56 +0500
+Processing by PostsController#index as HTML
+  [1m[36mPost Load (0.0ms)[0m  [1mSELECT "posts".* FROM "posts"  ORDER BY created_at DESC[0m
+  Rendered posts/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 22ms (Views: 22.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/posts" for ::1 at 2016-02-29 19:39:00 +0500
+Processing by PostsController#index as HTML
+  [1m[35mPost Load (0.0ms)[0m  SELECT "posts".* FROM "posts"  ORDER BY created_at DESC
+  Rendered posts/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 46ms (Views: 45.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/posts.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-02-29 19:39:01 +0500
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-02-29 19:39:01 +0500
+
+
+Started GET "/assets/jquery_ujs.self-d602bdfe68ffc63b9f9cc512872aa3cfff046228a0a36e90dd476e8ef54c1b09.js?body=1" for ::1 at 2016-02-29 19:39:01 +0500
+
+
+Started GET "/assets/posts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-02-29 19:39:01 +0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-02-29 19:39:01 +0500
+
+
+Started GET "/assets/jquery.self-c64a74367bda6ef8b860f19e74df08927ca99d2be2ac934e9e92d5fd361e0da4.js?body=1" for ::1 at 2016-02-29 19:39:01 +0500
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-02-29 19:39:01 +0500
+
+
+Started GET "/posts/1" for ::1 at 2016-02-29 19:39:02 +0500
+Processing by PostsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mPost Load (0.0ms)[0m  [1mSELECT  "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered posts/show.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 32ms (Views: 29.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-02-29 19:39:05 +0500
+Processing by PostsController#index as HTML
+  [1m[35mPost Load (1.0ms)[0m  SELECT "posts".* FROM "posts"  ORDER BY created_at DESC
+  Rendered posts/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 34ms (Views: 32.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/posts/1" for ::1 at 2016-02-29 19:39:07 +0500
+Processing by PostsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mPost Load (0.0ms)[0m  [1mSELECT  "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered posts/show.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 30ms (Views: 27.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-02-29 19:39:27 +0500
+Processing by PostsController#index as HTML
+  [1m[35mPost Load (1.0ms)[0m  SELECT "posts".* FROM "posts"  ORDER BY created_at DESC
+  Rendered posts/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 39ms (Views: 36.5ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/jquery_ujs.self-d602bdfe68ffc63b9f9cc512872aa3cfff046228a0a36e90dd476e8ef54c1b09.js?body=1" for ::1 at 2016-02-29 19:39:28 +0500
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-02-29 19:39:28 +0500
+
+
+Started GET "/assets/jquery.self-c64a74367bda6ef8b860f19e74df08927ca99d2be2ac934e9e92d5fd361e0da4.js?body=1" for ::1 at 2016-02-29 19:39:28 +0500
+
+
+Started GET "/assets/posts.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-02-29 19:39:28 +0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-02-29 19:39:28 +0500
+
+
+Started GET "/assets/posts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-02-29 19:39:28 +0500
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-02-29 19:39:28 +0500
